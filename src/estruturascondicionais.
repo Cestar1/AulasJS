@@ -1,0 +1,57 @@
+/*
+o if e o else são estruturas condicionais neste caso, 
+o if espera que uma condição seja atendida para que parte
+do codigo seja executado caso não ocorra com sucesso a 
+condição if o bloco do else sera acionado
+*/
+
+/*let nota = 10
+
+if(nota>= 7 && nota <= 10){
+  console.log('Passou de ano!')
+}
+
+else if(nota < 7 && nota >= 0){
+  console.log('Aluno reprovou!')
+} else {
+  console.log('Nota informada errada!')
+}
+*/
+
+//--- Atividade com o if ---------------------------------------------
+
+let peso = 78
+let altura = 1.98
+let imc = peso/ (altura * altura)
+
+if(imc >= 40){
+  console.log('Você tem Obesidade Grau III(Mórbida)!')
+}
+
+else if(imc > 40 && imc <= 35){
+  console.log('Você tem Obesidade Grau II(Severa)!')
+}
+
+else if(imc > 35 && imc <= 30){
+  console.log('Você tem Obesidade Grau I!')
+}
+
+else if(imc > 30 && imc <= 25){
+  console.log('Você tem Sobrepeso!')
+}
+
+else if(imc > 18.5 && imc <= 25){
+  console.log('Você é Saudável!')
+}
+
+else if(imc > 18.5 && imc <= 17){
+  console.log('Você tem Magreza Leve!')
+}
+
+else if(imc > 17 && imc <=16){
+  console.log('Você tem Magreza moderada!')
+}
+
+else if(imc > 16){
+  console.log('Você tem Magreza grave!')
+}
